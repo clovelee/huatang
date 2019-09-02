@@ -21,10 +21,11 @@
 	.getCD {
 		font-size:14px;
 		margin-top: 1em;
-		padding: 2px;
-		color: deeppink;
-		font-weight: bold;
-		text-decoration: wavy underline deeppink;
+		padding: 2px 4px;
+		color: #fff;
+		font-weight: 500;
+		background-color: rgba(247, 90, 173, 0.856);
+		border-radius: 4px;
 		display: inline-block;
 	}
 </style>
