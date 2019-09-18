@@ -37,9 +37,7 @@
     color: #000;
     display: block;
   }
-  h3 {
-    margin-top: 2em;
-  }
+
 </style>
 
 <div class="box">

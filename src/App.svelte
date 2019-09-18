@@ -132,6 +132,14 @@
     padding: 4em;
     background-color: whitesmoke;
   }
+	.footer b {
+		margin-bottom: 0.5em;
+		display: block;
+	}
+	.contact {
+		margin: 0 auto;
+		display: block;
+	}
 
 </style>
 
@@ -150,7 +158,7 @@
     <span>花糖</span>
   </div>
   <div class="nav">
-    <a href="black">美代招募中···</a>
+    <a href="black">美代入口···</a>
   </div>
 </div>
 
@@ -199,7 +207,7 @@
 
 <div class="p4">
 	<img src="pattern4.png" alt="">
-  <h2>轻松分享 省钱更赚钱</h2>
+  <h2>轻松分享 随时开展你的业务</h2>
   <p>
     无论是在路上，还是在休息，任何时间任何地点都可以高效地开启你的事业，不受限制，就是这样的轻松。
   </p>
@@ -208,23 +216,23 @@
 </div>
 
 <div class="p5">
-	<img src="pattern3.png" alt="">
-  <h2>即时单笔结算 一件代发全国</h2>
+	<img src="pattern6.png" alt="">
+  <h2>优质供应 全站保证品牌正品</h2>
   <p>
-    无论是在路上，还是在休息，任何时间任何地点都可以高效地开启你的事业，不受限制，就是这样的轻松。
+		不影响二次出售产品，接受无理由退货，退货运费由买家承担；已开包装影响二次出售，可折价回收；已使用产品，不接受退换货。
   </p>
-	<span>一件代发</span>
-	<span>实时结算</span>
+	<span>正品保证</span>
+	<span>疑假必退</span>
 </div>
 
 <div class="p6">
-	<img src="pattern6.png" alt="">
-  <h2>多种支付方式 </h2>
+	<img src="pattern3.png" alt="">
+  <h2>即时单笔结算 一件代发全国</h2>
   <p>
-    无论是在路上，还是在休息，任何时间任何地点都可以高效地开启你的事业，不受限制，就是这样的轻松。
+		单笔订单无论金额大小，先结算后发货；代理价格不含运费，全国运费6元起，单笔订单满1000，免邮。
   </p>
-	<span>正品保证</span>
-	<span>疑假退货</span>
+	<span>一件代发</span>
+	<span>实时结算</span>
 </div>
 
 <div class="p7">
@@ -240,7 +248,7 @@
 <div class="footer">
 	<h2>花糖美代 期待你的加入</h2>
 	<p>1000多款热门进口品牌，供你选择，省更多赚更多～～～</p>
-
-	<Getcode/>
+	<b>扫码二维码 快速获取代理</b>
+	<img class="contact" src="WX03.png" alt="">
 
 </div>

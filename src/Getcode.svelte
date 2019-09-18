@@ -1,3 +1,11 @@
+<script>
+	import Modal from './Modal.svelte';
+
+	let showModal = false;
+	function alertmenssage() {
+		alert("感谢你的申请，我们会尽快给您回复！")
+	}
+</script>
 <style>
   .btn {
     font-size: 14px;
@@ -28,10 +36,21 @@
 		border-radius: 4px;
 		display: inline-block;
 	}
+	button {
+		border: 0;
+	}
+	.Midd {margin: 0 auto;display: inherit;margin-bottom: 1em;}
 </style>
 
 <form action="">
 	<input placeholder="输入电话号码" />
-	<button class="btn">获取代理邀请</button>
+	<button class="btn" on:click={alertmenssage}>获取代理邀请</button>
 </form>
-<a href="black" class="getCD">点击查看代理价</a>
+
+<button class="getCD" on:click="{() => showModal = true}">点击查看代理价</button>
+
+{#if showModal}
+	<Modal on:submit="{() => showModal = false}">
+		<input class="Midd" placeholder="输入代理邀请码" />
+	</Modal>
+{/if}
