@@ -42,9 +42,9 @@
 	.Midd {margin: 0 auto;display: inherit;margin-bottom: 1em;}
 </style>
 
-<form name="contact" method="POST" data-netlify="true" >
+<form name="contact" method="POST" netlify>
 	<input name="phone" placeholder="输入电话号码" />
-	<button class="btn" type="submit" on:click={alertmenssage}>获取代理邀请</button>
+	<button class="btn" type="submit">获取代理邀请</button>
 </form>
 
 <button class="getCD" on:click="{() => showModal = true}">点击查看代理价</button>
