@@ -47,7 +47,7 @@
 	<button class="btn" on:click={alertmenssage}>获取代理邀请</button>
 </form>
 
-<button class="getCD" on:click="{() => showModal = true}">点击查看代理价</button>
+<button class="getCD" type="submit" on:click="{() => showModal = true}">点击查看代理价</button>
 
 {#if showModal}
 	<Modal on:submit="{() => showModal = false}">
