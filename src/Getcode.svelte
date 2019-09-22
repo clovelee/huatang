@@ -43,7 +43,7 @@
 </style>
 
 <form action="/" method="POST" data-netlify="true" >
-	<input placeholder="输入电话号码" />
+	<input name="phone" placeholder="输入电话号码" />
 	<button class="btn" on:click={alertmenssage}>获取代理邀请</button>
 </form>
 
