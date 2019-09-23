@@ -30,22 +30,23 @@
   button {
     display: block;
     background-color: rgba(247, 90, 173, 0.856);
+		padding: .5em 1em;
     border-radius: 4px;
     border: 0;
     width: 100px;
-    font-size: 14px;
+    font-size: 15px;
     list-style: 1.5em;
     margin: 0 auto;
-    color: #fff;
-    font-weight: 500;
   }
+	h4 {color: black;}
+	h5 {color: #999;}
 </style>
 
 <div class="modal-background" on:click={() => dispatch('submit')} />
 
 <div class="modal">
-
-  <h4>》加入花糖，查看美妆代理价</h4>
+  <h4>》加入花糖，查看千种美妆代理价</h4>
   <slot />
   <button class="btn" on:click={() => dispatch('submit')}>确定</button>
+	<h5>添加花糖微信号：Clovelee0216，快速获取代理邀请码</h5>
 </div>
