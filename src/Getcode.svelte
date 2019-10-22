@@ -36,7 +36,7 @@
 </style>
 
 <button class="getCD" on:click={() => (showModal = true)}>
-  立即查看代理价
+  申请成为代理
 </button>
 
 {#if showModal}
